@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- Navigation menu starts  -->
+
+    <header>
+
+        <a href="index.html" class="logo">To-Do List</a>
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fas fa-bars"></label>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+<!-- Navigation menu ends -->
+
+<section class="main" id="home">
+    <div class="content">
+        <h3 class="job-heading">Add Task</h3>
+        <p class="job-subheading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <div class="input-content">
+            <input id="inputField" type="text" required><button id="addToDo" class="btn-addjob">Add Task</button>
+        </div>
+        <div class="to-dos" id="toDoContainer"></div>
+    </div>
+</section>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
