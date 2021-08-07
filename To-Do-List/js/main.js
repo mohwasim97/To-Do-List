@@ -7,3 +7,9 @@ var paragraph = document.createElement('p');
 paragraph.innerText = inputField.value;
 toDoContainer.appendChild(paragraph);
 })
+
+deleteToDobutton.addEventListener('click', function(){
+    
+    toDoContainer.removeChild(toDoContainer.lastChild);
+
+})
