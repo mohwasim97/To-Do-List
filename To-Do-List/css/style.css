@@ -117,6 +117,11 @@ section {
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width:1200px){
     
     html{
